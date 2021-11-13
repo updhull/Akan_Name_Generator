@@ -11,11 +11,14 @@
 </head>
 <body>
     <div class="container">
-         <h4>The Akan Name Generator</h4>
-         <p>Hey there!This is a web application that generates your Akan Name.This is done by calculating the day of week you were born and then depending on your gender, outputs your Akan Name. <a href="https://en.wikipedia.org/wiki/Akan_names" target="_blank">Akan Names</a> are derived from Ghanian culture.
-        </p>
-         <p>The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born. These "day names" have further meanings concerning the soul and character of the person. Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name.Most Ghanaians have at least one name from this system, even if they also have an English or Christian name.</p>
-         <p>To find out what your Akan name is, proceed to filling the form below and clicking the generate name button.</p>
+         
+        <div class="paragraphs">
+            <h4>The Akan Name Generator</h4>
+            <p>Hey there!This is a web application that generates your Akan Name.This is done by calculating the day of week you were born and then depending on your gender, outputs your Akan Name. <a href="https://en.wikipedia.org/wiki/Akan_names" target="_blank">Akan Names</a> are derived from Ghanian culture.
+            </p>
+            <p>The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born. These "day names" have further meanings concerning the soul and character of the person. Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name.Most Ghanaians have at least one name from this system, even if they also have an English or Christian name.</p>
+            <p>To find out what your Akan name is, proceed to filling the form below and clicking the generate name button.</p>
+        </div>
          <!-- Adding Forms -->
         <div class="forms">
              <form action="">
@@ -27,14 +30,40 @@
                 <label for="Month">
                  Month:
                 </label>
-            <input type="number" name="" id="month">
+             <select name="" id="month">  
+                <option selected>Choose Month</option>
+                <option value="1">January</option>
+                <option value="2">February</option>
+                <option value="3">March</option>
+                <option value="3">April </option>
+                <option value="3">May</option>
+                <option value="3">June </option>
+                <option value="3">July </option>
+                <option value="3">August</option>
+                <option value="3">September</option>
+                <option value="3">October</option>
+                <option value="3">November</option>
+                <option value="3">December</option>
+             </select>
 
                 <label for="Day">
                  Day:
                 </label>
-            <input type="number" name="" id="day">
+                <select name="" id="day">
+                    <option selected>Choose Day</option>
+                    <option value="1">Sunday</option>
+                    <option value="2">Monday</option>
+                    <option value="3">Tuesday</option>
+                    <option value="3">Wednesday </option>
+                    <option value="3">Thursday</option>
+                    <option value="3">Friday </option>
+                    <option value="3">Saturday </option>
+
+                </select>
+             
             </form>
         </div>
+        <p>Select Your Gender</p>
         
     </div>
     <script src="/JS/main.js"></script>
