@@ -11,9 +11,9 @@
 </head>
 <body>
     <div class="container">
-         
+        <h4>The Akan Name Generator</h4>
         <div class="paragraphs">
-            <h4>The Akan Name Generator</h4>
+            
             <p>Hey there!This is a web application that generates your Akan Name.This is done by calculating the day of week you were born and then depending on your gender, outputs your Akan Name. <a href="https://en.wikipedia.org/wiki/Akan_names" target="_blank">Akan Names</a> are derived from Ghanian culture.
             </p>
             <p>The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born. These "day names" have further meanings concerning the soul and character of the person. Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name.Most Ghanaians have at least one name from this system, even if they also have an English or Christian name.</p>
@@ -27,66 +27,28 @@
 
                 <label for="month">Month:</label>
                 <input type="number" id="month" min="1" max="12" required placeholder="Example: December=12, May=5" >
-                 
-                
-           
 
-                
-                 
-
-                <label for="Day">
-                 Day:
-                </label>
-                <select name="" id="day">
-                    <option selected>Choose Day</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4 </option>
-                    <option value="5">5</option>
-                    <option value="6">6 </option>
-                    <option value="7">7 </option>
-                    <option value="8">8 </option>
-                    <option value="9">9 </option>
-                    <option value="10">10 </option>
-                    <option value="11">11 </option>
-                    <option value="12">12 </option>
-                    <option value="13">13 </option>
-                    <option value="14">14 </option>
-                    <option value="15">15 </option>
-                    <option value="16">16 </option>
-                    <option value="17">17 </option>
-                    <option value="18">18 </option>
-                    <option value="19">19 </option>
-                    <option value="20">20 </option>
-                    <option value="21">21 </option>
-                    <option value="22">22 </option>
-                    <option value="23">23 </option>
-                    <option value="24">24 </option>
-                    <option value="25">25 </option>
-                    <option value="26">26 </option>
-                    <option value="27">27 </option>
-                    <option value="28">28 </option>
-                    <option value="29">29 </option>
-                    <option value="30">30 </option>
-                    <option value="31">31 </option>
-
-                </select>
+                <label for="date ">Date:</label>
+                <input type="number" id="date" name="date" min="1" max="31" required placeholder="Example: 21">
              
             </form>
         </div>
-        <div class="gender">
-            <label for="Gender">Select your Gender</label>
-            <form action="">
-                <select name="" id="gender">
-                    <option selected>Gender</option>
-                    <option value="1">Male</option>
-                    <option value="2">Female</option>
-                
-                </select>
-            </form>
+        <p>Select your gender: <br></p>
+        <div class="radio">
+            <label>
+              <input type="radio" name="gender" value="Female" checked>
+              Female
+            </label>
         </div>
-        <button type="submit" id="button">Generate Name</button>
+        <div class="radio">
+            <label>
+              <input type="radio" name="gender" value="Male">
+              Male
+            </label>
+        
+        </div>
+        <button type="submit">Submit</button>
+
         
     </div>
     <script src="/JS/main.js"></script>
