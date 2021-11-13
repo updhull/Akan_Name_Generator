@@ -4,7 +4,7 @@
     color: white;
     padding-top: 20px;
     margin-top: 100px;
-    /* padding-left: 50px; */
+    height: 500px;
 }
 h4{
     color: blue !important;
@@ -21,9 +21,16 @@ a{
 }
 /* Styling the forms */
 .forms{
-    text-align: center;
+    /* text-align: center; */
 }
  #year{
-     width: 8%;
+     width: 20%;
  }
- 
+.gender{
+    /* display: flex; */
+    text-align: center;
+
+}
+#button{
+    text-align: center;
+}
