@@ -15,6 +15,12 @@ This name generator web application takes a user's birthday(year, month and date
 * Either a computer,phone,tablet or an Ipad
 * An access to the Internet
 
+ ### Project setup & collaboration
+ * To get a local copy up of this project, Clone the repo:
+ * Collaborate on this project by forking this repository to your github, clone it and create a new branch to make changes on, then push the changes to your remote repository.
+
+[Git clone] git@github.com:updhull/Akan_Name_Generator.git
+
 ## Licence
 ### MIT Licence
 
