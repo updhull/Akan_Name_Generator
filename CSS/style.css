@@ -13,6 +13,7 @@ h4{
 body{
     background-image: url(/Images/pexels-rodrigo-souza-2531709.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 a:hover{
     color: blue !important;
