@@ -7,40 +7,42 @@
     <title>Document</title>
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/bootstrap.rtl.min.css">
+    <script src="/JS/main.js"></script>
      
 </head>
 <body>
     <div class="container">
-         
         <div class="paragraphs">
             <h4>The Akan Name Generator</h4>
             <p>Hey there!This is a web application that generates your Akan Name.This is done by calculating the day of week you were born and then depending on your gender, outputs your Akan Name. <a href="https://en.wikipedia.org/wiki/Akan_names" target="_blank">Akan Names</a> are derived from Ghanian culture.
             </p>
-            <p>The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born. These "day names" have further meanings concerning the soul and character of the person. Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name.Most Ghanaians have at least one name from this system, even if they also have an English or Christian name.</p>
-            <p>To find out what your Akan name is, proceed to filling the form below and clicking the submit button.</p>
+            <p>The <strong>Akan</strong> people of Ghana frequently name their children after the day of the week they were born and the order in which they were born. These <em>"day names"</em> have further meanings concerning the soul and character of the person. Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name.Most Ghanaians have at least one name from this system, even if they also have an English or Christian name.</p>
+            <p>To find out what your Akan name is, proceed to filling the form below the and click the submit button.</p>
         </div>
+        
          <!-- Adding Forms -->
         <div class="forms">
-             <form action="">
+             <form action="" onsubmit="findDay()">
                 <label for="year ">Year of birth</label>
-                <input type="number" id="year" name="year" min="1900" max="2020" required placeholder="Example:1989">
+                <input type="number" id="year" name="year" min="1900" max="2020" required placeholder="Example:2000">
 
                 <label for="month">Month:</label>
-                <input type="number" id="month" min="1" max="12" required placeholder="Example: December=12, May=5" >
+                <input type="number" id="month" min="1" max="12" required placeholder="Example: January=1, June=6" >
 
                 <label for="date ">Date:</label>
-                <input type="number" id="date" name="date" min="1" max="31" required placeholder="Example: 21">
+                <input type="number" id="date" name="date" min="1" max="31" required placeholder="Example: 18">
              
             </form>
         </div>
-        <p>Select your gender: <br></p>
+        <p class="gender">Select your gender: <br></p>
         <div class="radio">
             <label>
               <input type="radio" name="gender" value="Male" checked>
               Male
             </label>
-        </div>
-        <div class="radio">
+         
+         
             <label>
               <input type="radio" name="gender" value="Female">
               Female
@@ -51,6 +53,6 @@
         
         
     </div>
-    <script src="/JS/main.js"></script>
+    
 </body>
 </html>
