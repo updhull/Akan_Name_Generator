@@ -14,7 +14,11 @@ h4{
     text-align: center;
 }
 body{
+<<<<<<< HEAD
     background-image: url("../Images/pexels-rodrigo-souza-2531709.jpg");
+=======
+    background-image: url('/Images/pexels-rodrigo-souza-2531709.jpg');
+>>>>>>> 76efab0a587a420afaaa20b73bcaffd79ad40886
     background-size: cover;
     background-repeat: no-repeat;
 }
