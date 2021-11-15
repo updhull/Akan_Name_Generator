@@ -1,7 +1,7 @@
  .container{
     background-color: red;
     width: 30%;
-    color: white;
+    color: #103B7A;
     padding-top: 20px;
     margin-top: 80px;
     height: 500px;
@@ -10,7 +10,7 @@ body{
     height: 1000px;
 }
 h4{
-    color: blue !important;
+    color: #103B7A !important;
     text-align: center;
 }
 body{
@@ -19,10 +19,10 @@ body{
     background-repeat: no-repeat;
 }
 a:hover{
-    color: blue !important;
+    color: white !important;
 }
 a{
-    color: white !important;
+    color: #103B7A !important;
 }
 /* Styling the forms */
 #year{
